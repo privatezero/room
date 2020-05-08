@@ -1,0 +1,81 @@
+@import "compass/css3";
+@font-face {
+    font-family: 'League Spartan';
+    src: url('leaguespartan-bold.eot');
+    src: url('leaguespartan-bold.eot?#iefix') format('embedded-opentype'),
+         url('leaguespartan-bold.woff2') format('woff2'),
+         url('leaguespartan-bold.woff') format('woff'),
+         url('leaguespartan-bold.ttf') format('truetype'),
+         url('leaguespartan-bold.svg#league_spartanbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    }
+    body {
+      background-color: #1c1c1c;
+    }
+
+    div.content {
+        color: #FFFFFF;
+        font-family: 'League Spartan';
+        font-size: 300%;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    div.room {
+        background: #64cca9;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 800px;
+        height: 800px;
+    }
+    .hidden {
+      color: transparent;
+      background-color:
+      transparent; border-color:
+      transparent;
+    }
+      div.window {
+      width: 560px;
+      height: 370px;
+      box-shadow: 0 0 0 2px #efefef,
+          0 0 0 4px #dbd9d9,
+          0 0 0 11px #b7b5b5,
+          0 0 0 17px #919191,
+          0 0 0 25px #777777,
+          0 0 0 34px #474747;
+          position: absolute;
+     }
+     
+     div.amp {
+      position: absolute;
+      left:50%;
+      bottom:0;
+      margin:0;
+      padding:0;
+      width:75%;
+     }
+
+div.radio{
+    display: block;
+    width:200;
+    height:200;
+    position: absolute;
+    left: 200px;
+    top:10%; 
+    font-size: 110px;
+    cursor:pointer;
+    color: transparent;
+    background-color: transparent; 
+    border-color: transparent;
+    display:inline-block;
+    border-radius: 4px;
+    }
